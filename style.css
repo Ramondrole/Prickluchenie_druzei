@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+body{
+    background-image: url(./Горы.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+.oblojka{
+    width: 200vh;
+    height: 200vh;
+    text-align: center;
+    
+}
+.h-one{
+    font-size: 100px;
+    font-family: 'Young Serif', serif;
+    
+
+    
+}
+.obnovlenie{
+    margin-top: 25px;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+.h-two{
+    font-size: 100px;
+    text-align: center;
+}
+.p{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.h-three{
+    font-size: 100px;
+    text-align: center;
+}
+.novosti{
+    margin-top: 25px;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+.p-{
+    color: maroon;
+    font-size: 50px;
+    text-align: right;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.a{
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    text-decoration: none;
+    color: red;
+    margin-left: 250px;
+    font-size: 50px;
+    width: 100px;
+    height: 70px;
+}
+.h-four{
+    font-size: 100px;
+    text-align: center;
+}
+.VK{
+    margin-top: 25px;
+    margin:auto;
+    width: 1000px;
+    height: 800px;
+    border: 5px solid black;
+    border-radius: 50px; 
+    background-color: white; 
+}
+.propusk{
+    height: 50px;
+    width: 1000px;
+}
+.btn{
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 10%;
+    height: 2%;
+    font-size: 125%;
+    text-align: center;
+    background: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.one{
+    margin-top: 25px;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+.ava{
+    width: 50px;
+    height: 50px;
+   animation-name: ava;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+}
+
+@keyframes ava{
+    0% {
+        filter: invert(0%);
+    }
+    50% {
+        filter: invert(100%);
+    }
+    100%{
+        filter: invert(0%);
+    }
+}
